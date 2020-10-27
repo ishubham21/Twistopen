@@ -1,2 +1,2 @@
 # Twistopen
-twistopen - (Work, Services) - Google Pg. 3 clone
+Please make sure to have an active internet connection, so to help load the online icons.
