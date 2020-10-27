@@ -22,7 +22,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding: 0 40px;
-    min-height: 100px;
+    height: 100px;
     /* border-bottom: 1px solid #ddd; */
 }
 .nav-brand{
@@ -34,7 +34,9 @@ body{
     box-sizing: border-box;
 }
 .nav-ul{
+    height: 60px;
     display: flex;
+    align-items: center;
 }
 .nav-li{
     margin: 0 20px;
@@ -60,14 +62,60 @@ body{
     color: #ee236b;
     font-weight: 600;
 }
+.nav-container{
+    cursor: pointer;
+}
 .nav-container span{
     display: none;
-    height: 1.25px;
+    height: 1.35px;
     width: 25px;
     color: #ddd;
-    background-color: #ddd;
+    background-color: #666;
     margin: 10px 0;
     margin-left: auto;
     transition: all 0.3s;
+}
+.nav-menu-sm{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        height: 60px !important;
+        padding: 0 30px!important;
+    }
+    .nav-brand a{
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-container span{
+        display: block;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-menu-sm{
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        z-index: 100;
+    }
+    .nav-li-sm{
+        font-size: 12vw;
+        line-height: 120%;
+        list-style: none;
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 13px!important;
+    }
+    .nav-li-sm a{
+        color: #fff;
+        text-decoration: none;
+        font-family: "Domaine display web";
+    }
+    .nav-li-sm a.active{
+        color: #ee236b;
+    }
 }
 
