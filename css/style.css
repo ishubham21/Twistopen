@@ -25,9 +25,15 @@ body{
     height: 100px;
     /* border-bottom: 1px solid #ddd; */
 }
+/*Navbar brand*/
 .nav-brand{
     display: inline-block;
     margin-right: auto;
+}
+.nav-brand a{
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 .nav-brand img{
     width: 132px;
@@ -38,9 +44,13 @@ body{
     display: flex;
     align-items: center;
 }
+/*Navbar list styling*/
 .nav-li{
     margin: 0 20px;
     padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 .nav-li:nth-child(6){
     margin-right: 0;
@@ -62,6 +72,7 @@ body{
     color: #ee236b;
     font-weight: 600;
 }
+/*Box haiving two spans*/
 .nav-container{
     cursor: pointer;
 }
@@ -75,57 +86,55 @@ body{
     margin-left: auto;
     transition: all 0.3s;
 }
-.nav-menu-sm{
-    display: none;
+/*Navbar for smaller screens*/
+.nav-sm{
+    min-height: calc(100vh - 60px);
+    background-color: #000;
 }
-@media screen and (min-device-width:200px) and (max-device-width: 768px){
+.nav-sm-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav-sm-ul{
+    padding-top: 30px;
+}
+.nav-sm-li{
+    list-style: none;
+    padding: 20px;
+    padding-bottom: 13px!important;
+}
+.nav-sm-li a{
+    font-size: 12vw;
+    font-family: "Domaine display web";
+    color: #fff;
+    text-decoration: none;
+    line-height: 120%;
+}
+.nav-sm-li a.active{
+    color: #ee236b;
+}
+.nav-sm .social-sm ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 28px;
+    margin-top: 8vw;
+}
+.social-sm li a{
+    font-size: 9.5vw;
+    color: #ddd;
+    text-decoration: none;
+}
+@media (max-width:768px){
     .navbar{
-        height: 60px !important;
-        padding: 0 30px!important;
-    }
-    .nav-brand a{
-        min-height: 60px;
-        display: flex;
-        align-items: center;
-    }
-    .nav-container{
-        margin-right: 8px;
-    }
-    .nav-container span{
-        display: block;
+        height: 60px!important;
+        padding: 0 20px
     }
     .nav-ul{
         display: none;
     }
-    .nav-menu-sm{
-        background-color: #000;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        z-index: 100;
-        height: 100vh;
-    }
-    .nav-ul-sm{
-        display: flex;
-        flex-direction: column;
-        align-items: center!important;
-        padding-top: 30px;
-    }
-    .nav-li-sm{
-        font-size: 12vw;
-        line-height: 120%;
-        list-style: none;
-        width: 100%;
-        padding: 20px;
-        padding-bottom: 13px!important;
-    }
-    .nav-li-sm a{
-        color: #fff;
-        text-decoration: none;
-        font-family: "Domaine display web";
-    }
-    .nav-li-sm a.active{
-        color: #ee236b;
+    .nav-container span{
+        display: block;
     }
 }
 
