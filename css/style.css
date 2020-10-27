@@ -1,0 +1,6 @@
+/*Defining the font*/
+@font-face{
+    font-family: "Domaine display web";
+    src: url("../assets/fonts/Domaine-display-bold.woff2") format("woff2");
+    font-weight: 700; 
+}
