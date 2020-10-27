@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
 /*Defining the font*/
 @font-face{
     font-family: "Domaine display web";
@@ -8,4 +9,65 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    box-sizing: border-box;
+}
 /*----Navbar----*/
+.navbar{
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 40px;
+    min-height: 100px;
+    /* border-bottom: 1px solid #ddd; */
+}
+.nav-brand{
+    display: inline-block;
+    margin-right: auto;
+}
+.nav-brand img{
+    width: 132px;
+    box-sizing: border-box;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.nav-li:nth-child(6){
+    margin-right: 0;
+    padding-right: 0;
+}
+@media (max-width:991px){
+    .nav-li{
+        margin: 0;
+        font-size: 1.38vw;
+    }
+}
+.nav-li a{
+    font-size: 1vw;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-li a.active{
+    color: #ee236b;
+    font-weight: 600;
+}
+.nav-container span{
+    display: none;
+    height: 1.25px;
+    width: 25px;
+    color: #ddd;
+    background-color: #ddd;
+    margin: 10px 0;
+    margin-left: auto;
+    transition: all 0.3s;
+}
+
