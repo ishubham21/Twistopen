@@ -86,10 +86,19 @@ body{
     margin-left: auto;
     transition: all 0.3s;
 }
+/*Cross icon*/
+.cross-icon span:nth-child(1){
+    transform: rotate(45deg) translate(8px, 8px);
+}
+.cross-icon span:nth-child(2){
+    transform: rotate(-45deg) translate(-1px, 0px);
+}
 /*Navbar for smaller screens*/
 .nav-sm{
     min-height: calc(100vh - 60px);
     background-color: #000;
+    display: none;
+    transition: 0.3s;
 }
 .nav-sm-container{
     display: flex;
@@ -136,5 +145,9 @@ body{
     .nav-container span{
         display: block;
     }
+    .display-true{
+        display: block!important;
+    }
 }
 
+/*----Navbar completes here----*/
