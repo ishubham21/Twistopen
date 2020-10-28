@@ -308,6 +308,34 @@ p{
 #works .intrinsic-p:hover{
     color: #000;
 }
+/*Communication block*/
+#works .communication-blk h1{
+    font-size: 4.16vw; 
+    line-height: 125%; 
+    font-family: 'Domaine display web';
+    padding-bottom: 33px;
+}
+#works .communication-blk input{
+    display: block;
+    width: 100%;
+    font-size: 2vw;
+    text-align: left;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#works .communication-blk input::placeholder{
+    font-weight: 200;
+    font-family: "Domaine display web";
+}
+#works .communication-blk label{
+    visibility: hidden;
+}
 /*Bg-Colors*/
 .bg-033457{
     background: #033457;
@@ -342,5 +370,12 @@ p{
 .bg-00abaf{
     background-color: #00abaf;
 }
-
-
+.bg-323c4a{
+    background-color: #323c4a;
+}
+.bg-6b7a8f{
+    background-color: #6b7a8f;
+}
+.bg-72c064{
+    background-color: #72c064;
+}
