@@ -34,7 +34,7 @@ p{
         font-size: 22px!important;
     }
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .domaine-txt{
         font-size: 20px!important;
     }
@@ -161,7 +161,7 @@ p{
     color: #ddd;
     text-decoration: none;
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .navbar{
         height: 60px!important;
         padding: 0 20px;
@@ -335,6 +335,23 @@ p{
 }
 #works .communication-blk label{
     visibility: hidden;
+}
+@media(max-width: 479px){
+    #works .communication-blk h1{
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    #works .communication-blk input{
+        font-size: 16px;
+    }
+    #works .communication-blk .intrinsic-p{
+        font-size: 20px!important;
+    }
+}
+@media (max-width: 767px){
+    #works .communication-blk h1{
+        padding-bottom: 0px;
+    }
 }
 /*Bg-Colors*/
 .bg-033457{
