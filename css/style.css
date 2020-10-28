@@ -408,7 +408,7 @@ p{
 /*----Work section ends here*/
 
 /*----Contacts section----*/
-#contacts{
+/* #contacts{
     background-color: #000;
     min-height: 19vw;
     display: flex;
@@ -427,4 +427,4 @@ p{
     #contacts .contain{
         padding: 0 40px;
     }
-}
+} */
