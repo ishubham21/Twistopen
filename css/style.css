@@ -17,6 +17,7 @@ body{
 }
 a{
     text-decoration: none!important;
+    color: #000;
 }
 p{
     line-height: 125%;
@@ -207,12 +208,60 @@ p{
    }
 }
 /*Header ends here*/
-#works .grid-row-lg-1{
+#works .row{
+    position: relative;
     margin: 50px 5vw 0 5vw;
-    display: grid;
-    align-items: stretch;
-    justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 4em;
-    grid-auto-flow: dense;
 }
+#works .col-12{
+    max-width: 90%;
+    position: relative;
+    padding: 0;
+}
+#works img{
+    max-width: 100%;
+    object-fit: contain;
+}
+#works h3{
+    font-size: 1.67vw;
+    line-height: 125%;
+    color: #000;
+    margin-top: 10px;
+}
+#works p{
+    font-size: 1.38vw;
+}
+#works .contain-desc{
+    position: relative;
+
+}
+#works .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none!important;
+}
+#works .overlay p{
+    width: 85%;
+    color: #fff;
+    font-size: 1.4vw;
+}
+#works .contain-desc:hover .overlay{
+    display: flex!important;
+}
+/*Bg-Colors*/
+.bg-033457{
+    background: #033457;
+}
+.bg-0c76aa{
+    background: #0c76aa;
+}
+.bg-fcad14{
+    background-color: #fcad14;
+}
+.bg-2f2113{
+    background-color: #2f2113;
+}
+
+
