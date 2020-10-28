@@ -195,7 +195,7 @@ p{
     line-height: 80%;
     font-family: "Domaine display web";
     text-align: right;
-    margin: 2vw 0vw 0;
+    margin: 1.6vw 0vw 0;
     color: #fff;
 }
 @media (max-width: 480px){
@@ -428,3 +428,10 @@ p{
         padding: 0 40px;
     }
 } */
+
+
+
+/*-----------------------------------------Services---------------------------------------------------*/
+#head .services-head-img{
+    width: 75vw!important;
+}
