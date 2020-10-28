@@ -15,6 +15,12 @@ body{
     line-height: 30px;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none!important;
+}
+p{
+    line-height: 125%;
+}
 /*----Navbar----*/
 .navbar{
     background-color: #000;
@@ -89,10 +95,12 @@ body{
 }
 /*Cross icon*/
 .cross-icon span:nth-child(1){
-    transform: rotate(45deg) translate(8px, 8px);
+            transform: rotate(45deg) translate(8px, 8px);
+    -webkit-transform: rotate(45deg) translate(8px, 8px);
 }
 .cross-icon span:nth-child(2){
-    transform: rotate(-45deg) translate(-1px, 0px);
+            transform: rotate(-45deg) translate(-1px, 0px);
+    -webkit-transform: rotate(-45deg) translate(-1px, 0px);
 }
 /*Navbar for smaller screens*/
 .nav-sm{
@@ -199,5 +207,12 @@ body{
    }
 }
 /*Header ends here*/
-   
-
+#works .grid-row-lg-1{
+    margin: 50px 5vw 0 5vw;
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4em;
+    grid-auto-flow: dense;
+}
