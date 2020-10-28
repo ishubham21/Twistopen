@@ -156,7 +156,7 @@ p{
     padding: 0 28px;
     margin-top: 8vw;
 }
-.social-sm li a{
+.nav-sm .social-sm li a{
     font-size: 9.5vw;
     color: #ddd;
     text-decoration: none;
@@ -234,7 +234,7 @@ p{
         margin: 50px 30px!important;
     }
 }   
-@media (max-width: 1100px){
+@media (max-width: 1280px){
     #works .row{
         margin: 50px 60px;
     }
@@ -338,8 +338,9 @@ p{
     border: 1px solid #ccc;
 }
 #works .communication-blk input::placeholder{
-    font-weight: 200;
-    font-family: "Domaine display web";
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
 }
 #works .communication-blk label{
     visibility: hidden;
@@ -347,7 +348,7 @@ p{
 @media(max-width: 479px){
     #works .communication-blk h1{
         font-size: 30px;
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     #works .communication-blk input{
         font-size: 16px;
@@ -358,7 +359,7 @@ p{
 }
 @media (max-width: 767px){
     #works .communication-blk h1{
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
 }
 /*Bg-Colors*/
@@ -403,4 +404,27 @@ p{
 }
 .bg-72c064{
     background-color: #72c064;
+}
+/*----Work section ends here*/
+
+/*----Contacts section----*/
+#contacts{
+    background-color: #000;
+    min-height: 19vw;
+    display: flex;
+    align-items: center;
+}
+#contacts .contain{
+    padding: 0 70px;    
+}
+#contacts .contain img{
+    width: 13.18vw;
+}
+@media (max-width: 991px){
+    #contacts{
+        min-height: 150px;
+    }
+    #contacts .contain{
+        padding: 0 40px;
+    }
 }
