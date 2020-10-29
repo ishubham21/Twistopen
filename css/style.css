@@ -431,7 +431,25 @@ p{
 
 
 
+
+
+
+
+/*-------------------------------------Work page end here---------------------------------------------*/
+
+
 /*-----------------------------------------Services---------------------------------------------------*/
 #head .services-head-img{
     width: 75vw!important;
+}
+.services-head{
+    /* animation: flowDown 1.2s 0.1s; */
+}
+@keyframes flowDown{
+    0%{
+        transform: translateY(-80vh);
+    }
+    100%{
+        transform: translateY(0vh);
+    }
 }
