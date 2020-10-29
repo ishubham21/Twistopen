@@ -480,6 +480,79 @@ p{
     }
 }
 
+#offerings{
+    padding: 10vw 3vw 9vw;
+}
+#offerings h2{
+    margin-top: 0;
+    margin-bottom: 6vw;
+    font-family: 'Domaine display web',sans-serif;
+    color: #fff;
+    font-size: 4.86vw;
+    line-height: 140%;
+}
+#offerings .col-6, #offerings .col-12{
+    padding: 0;
+}
+#offerings .off-parent{
+    margin-bottom: 30px;
+}
+#offerings .wrap{
+    max-width: 93%;
+    background-color: #fff;
+}
+#offerings .off-child{
+    
+}
+#offerings .off-child h3{
+    margin: 2vw 0 20px;
+    font-size: 2.5vw;
+    line-height: 113%;
+}
+#offerings .off-child p{
+    margin-bottom: 2.5vw;
+    color: #000;
+    font-size: 1.11vw;
+    line-height: 155%;
+    font-weight: 300;
+}
+#offerings .off-child img{
+    max-width: 100%;
+    width: 100%;
+}
+#offerings .off-child .content{
+    padding: 0 2vw;
+}
+#offerings .wrap-9{
+    border: 2px dashed #fff!important;
+}
+#offerings .wrap-9 h3{
+    color: #fff;
+    margin-top: 2vw;
+    margin-bottom: 20px;
+    font-size: 2.5vw;
+    padding: 0 1.5vw 0;
+}
+#offerings .wrap-9 .content a{
+    display: block;
+    text-align: center;
+    width: 80%;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,0);
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 2vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 2vw;
+    line-height: 165%;
+}
+@media (max-width: 767px){
+    #offerings .off-child .content p{
+        display: none;
+    }
+}
+
 
 
 
@@ -521,7 +594,7 @@ Todo: float up animation, navigation dots */
 
 /*Bg-Colors*/
 .bg-000{
-    background-color: #000;
+    background-color: #000!important;
 }
 .bg-033457{
     background: #033457;
