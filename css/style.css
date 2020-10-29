@@ -363,36 +363,6 @@ p{
     }
 }
 
-/*----Work section ends here*/
-
-/*----Contacts section----*/
-/* #contacts{
-    background-color: #000;
-    min-height: 19vw;
-    display: flex;
-    align-items: center;
-}
-#contacts .contain{
-    padding: 0 70px;    
-}
-#contacts .contain img{
-    width: 13.18vw;
-}
-@media (max-width: 991px){
-    #contacts{
-        min-height: 150px;
-    }
-    #contacts .contain{
-        padding: 0 40px;
-    }
-} */
-
-
-
-
-
-
-
 /*-------------------------------------Work page end here---------------------------------------------*/
 
 
@@ -456,7 +426,7 @@ p{
 #carousel .owl-dots{
     display: none;
 }
-@media (max-width: 479px){
+@media (max-width: 600px){
     #carousel .item{
         min-height: 45vw;
         width: 75%;
@@ -479,10 +449,16 @@ p{
         margin-left: 42%;
     }
 }
-@media (max-width: 769px){
+@media (max-width: 991px){
     #carousel .owl-nav button{
         transform: scale(2);
         -webkit-transform: scale(2); 
+    }
+}
+@media (max-width: 1200px){
+    #carousel .owl-nav button{
+        transform: scale(2.2);
+        -webkit-transform: scale(2.2); 
     }
 }
 
@@ -659,6 +635,12 @@ p{
         font-size: 5.5vw;
         padding-left: 7vw;
     }
+}
+
+
+/*----------------------Contacts-------------------------*/
+#contacts{
+    
 }
 
 /*----Animations----*/
