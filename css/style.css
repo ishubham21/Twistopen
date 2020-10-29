@@ -479,6 +479,12 @@ p{
         margin-left: 42%;
     }
 }
+@media (max-width: 769px){
+    #carousel .owl-nav button{
+        transform: scale(2);
+        -webkit-transform: scale(2); 
+    }
+}
 
 #offerings{
     padding: 10vw 3vw 9vw;
@@ -551,7 +557,69 @@ p{
     #offerings .off-child .content p{
         display: none;
     }
+    #offerings .off-child h3{
+        text-align: center;
+        font-size: 3.7vw;
+    }
+    #offerings .wrap-9 h3{
+        margin-top: 0vw;
+        margin-bottom: 15px;
+    }
+    #offerings .wrap-9 .content a{
+        font-size: 3vw;
+        width: 60%;
+        margin-bottom: 20px;
+    }
 }
+/*To push the element at the last*/
+@media (max-width: 767px){
+    .order-last {
+      order: 13;
+    }
+}
+
+#capabilities{
+    padding: 3vw 4vw 10vw;
+}
+#capabilities h2{
+    margin-top: 0;
+    margin-bottom: 6vw;
+    font-family: 'Domaine display web',sans-serif;
+    color: #fff;
+    font-size: 4.86vw;
+    line-height: 140%;
+}
+#capabilities ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#capabilities ul li{
+    margin: 0 1.5vw;
+    font-size: 2.5vw;
+    line-height: 119%;
+    font-weight: 300;
+    margin-top: 3vw;
+}
+#capabilities ul li span{
+    color: #fff;
+}
+@media (max-width: 550px){
+    #capabilities h2{
+        margin-bottom: 43px;
+        font-size: 8.33vw;
+    }
+    #capabilities ul{
+        flex-direction: column;
+    }
+    #capabilities ul li{
+        font-size: 5.5vw;
+    }
+}
+
 
 
 
@@ -666,4 +734,21 @@ Todo: float up animation, navigation dots */
 }
 .txt-3d9eff{
     color: #3d9eff;
+}
+.txt-ee236b{
+    color: #ee236b;
+}
+@media (max-width: 550px){
+    .txt-sm-1fb58d{
+       color: #1fb58d;
+    }
+    .txt-sm-ffc72a{
+       color: #ffc72a;
+    }
+    .txt-sm-3d9eff{
+       color: #3d9eff;
+    }
+    .txt-sm-ff811d{
+       color: #ff811d;
+    }
 }
