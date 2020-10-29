@@ -405,7 +405,6 @@ p{
 }
 #carousel{
     /* animation: flowUp 1.22s 0s; */
-    padding-bottom: 9vw;
 }
 #carousel .item{
     margin-left: 5%;
@@ -437,9 +436,9 @@ p{
 }
 #carousel .owl-nav button{
     color: #fff;
-    transform: scale(5);
+            transform: scale(5);
     -webkit-transform: scale(5);
-    outline:none; 
+    outline: none; 
 }
 #carousel .owl-nav button:nth-child(1){
     margin-right: 24%;
@@ -481,6 +480,60 @@ p{
     }
 }
 
+#offerings{
+    padding: 10vw 2.5vw 9vw;
+}
+#offerings .col-6{
+    padding: 0;
+    margin-bottom: 30px;
+}
+#offerings h2{
+    color: #fff;
+    font-size: 4.86vw;
+    line-height: 140%;
+    font-family: "Domaine display web";
+    margin-bottom: 6vw;
+    margin-left: 1.5vw;
+}
+#offerings .off-child{
+    background-color: #fff;
+    max-width: 92%;
+    padding: 2vw 0 5vw;
+}
+#offerings .off-child img{
+    width: 100%;
+}
+#offerings .off-child h3{
+    margin: 0 0 35px 0;
+    font-size: 2.5vw;
+}
+#offerings .off-child p{
+    color: #000;
+    font-size: 1.11vw;
+    line-height: 155%;
+    font-weight: 300;
+}
+#offerings .pad-rl-2vw{
+    padding: 0 2.1vw 0;
+}
+#offerings .image-down h3{
+    margin: 0.55vw 0 35px 0;
+    line-height: 113%;
+}
+#offerings .child-2{
+    padding: 2vw 0 24px;
+}
+#offerings .child-4{
+    padding-bottom: 1.6vh;
+}
+#offerings .child-6{
+    padding-bottom: 0;
+}
+@media (max-width: 767px){
+    #offerings .off-wraper p{
+        display: none;
+    }
+}
 
 
 
@@ -580,4 +633,18 @@ Todo: float up animation, navigation dots */
 }
 .bg-ee236b{
     background-color: #ee236b;
+}
+
+/*Text colors*/
+.txt-ffc72a{
+    color: #ffc72a;
+}
+.txt-1fb58d{
+    color: #1fb58d;
+}
+.txt-ff811d{
+    color: #ff811d;
+}
+.txt-3d9eff{
+    color: #3d9eff;
 }
