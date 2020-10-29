@@ -635,6 +635,7 @@ p{
 }
 #clients .col-11{
     margin-bottom: 10.83vw;
+    flex-direction: column;
 }
 #clients .col-11 .row{
     max-width: 85%;
@@ -646,30 +647,19 @@ p{
 }
 #clients h4{
     padding-left: 3.2vw;
-    margin-bottom: 4vw;
     color: #000;
     font-size: 2vw;
     line-height: 142%;
     font-weight: 500;
     text-transform: uppercase;
+    margin: 0 auto 4vw 3.2vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-Todo: float up animation, navigation dots */
-
+@media (max-width:767px){
+    #clients h4{
+        font-size: 5.5vw;
+        padding-left: 7vw;
+    }
+}
 
 /*----Animations----*/
 
