@@ -362,7 +362,98 @@ p{
         padding-bottom: 20px;
     }
 }
+
+/*----Work section ends here*/
+
+/*----Contacts section----*/
+/* #contacts{
+    background-color: #000;
+    min-height: 19vw;
+    display: flex;
+    align-items: center;
+}
+#contacts .contain{
+    padding: 0 70px;    
+}
+#contacts .contain img{
+    width: 13.18vw;
+}
+@media (max-width: 991px){
+    #contacts{
+        min-height: 150px;
+    }
+    #contacts .contain{
+        padding: 0 40px;
+    }
+} */
+
+
+
+
+
+
+
+/*-------------------------------------Work page end here---------------------------------------------*/
+
+
+/*-----------------------------------------Services---------------------------------------------------*/
+#head .services-head-img{
+    width: 75vw!important;
+}
+.services-head{
+    /* animation: flowDown 1.2s 0.1s; */
+}
+#carousel .item{
+    margin-left: 5%;
+    max-width: 88%;
+    cursor: pointer;
+    min-height: 27.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carousel .sub-item{
+    width: 80%;
+}
+#carousel .item h4{
+    color: #fff;
+    font-size: 3.47vw;
+    line-height: 147%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes flowDown{
+    0%{
+        transform: translateY(-80vh);
+    }
+    100%{
+        transform: translateY(0vh);
+    }
+}
+
 /*Bg-Colors*/
+.bg-000{
+    background-color: #000;
+}
 .bg-033457{
     background: #033457;
 }
@@ -405,51 +496,18 @@ p{
 .bg-72c064{
     background-color: #72c064;
 }
-/*----Work section ends here*/
-
-/*----Contacts section----*/
-/* #contacts{
-    background-color: #000;
-    min-height: 19vw;
-    display: flex;
-    align-items: center;
+.bg-0081ff{
+    background-color: #0081ff;
 }
-#contacts .contain{
-    padding: 0 70px;    
+.bg-ff811d{
+    background-color: #ff811d;
 }
-#contacts .contain img{
-    width: 13.18vw;
+.bg-ffc72a{
+    background-color: #ffc72a;
 }
-@media (max-width: 991px){
-    #contacts{
-        min-height: 150px;
-    }
-    #contacts .contain{
-        padding: 0 40px;
-    }
-} */
-
-
-
-
-
-
-
-/*-------------------------------------Work page end here---------------------------------------------*/
-
-
-/*-----------------------------------------Services---------------------------------------------------*/
-#head .services-head-img{
-    width: 75vw!important;
+.bg-1fb58d{
+    background-color: #1fb58d;
 }
-.services-head{
-    /* animation: flowDown 1.2s 0.1s; */
-}
-@keyframes flowDown{
-    0%{
-        transform: translateY(-80vh);
-    }
-    100%{
-        transform: translateY(0vh);
-    }
+.bg-ee236b{
+    background-color: #ee236b;
 }
