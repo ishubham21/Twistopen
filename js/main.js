@@ -49,18 +49,10 @@ function carouselPop() {
     carItem[4].addEventListener("click", () => {
         popText.innerHTML = "Great! <br> We can help you manage your resources better.Share your email.";
     });
-
-    // carItem[1].addEventListener("click", () => {
-    //     popup.classList.add("popup-display-true");
-    //     popText.innerHTML = "Fantastic! <br> We can help you with your product. Share your email.";
-          
-    // });
-    // carItem[2].addEventListener("click", () => {
-    //     popup.classList.add("popup-display-true");
-    //     popText.innerHTML = "Hello! <br> We can help you with your product. Share your email.";
-    // });
+    
+    /*Closing the popover*/
     popCross.addEventListener("click", () => {
         popup.classList.remove("popup-display-true");
     });
-    
 }
+    

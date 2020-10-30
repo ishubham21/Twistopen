@@ -35,6 +35,14 @@ p{
 .cntr-txt{
     text-align: center;
 }
+.title-txt{
+    margin-top: 0;
+    margin-bottom: 6vw;
+    font-family: 'Domaine display web',sans-serif;
+    color: #fff;
+    font-size: 4.86vw;
+    line-height: 140%;
+}
 @media (max-width:479px){
     .domaine-txt{
         font-size: 22px!important;
@@ -533,18 +541,15 @@ p{
 .popup-display-true{
     display: block!important;
 }
+@media(max-width: 767px){
+    .popup .content img{
+        width: 20px;
+    }
+}
 
 /*----Offerings section----*/
 #offerings{
     padding: 10vw 3vw 9vw;
-}
-#offerings h2{
-    margin-top: 0;
-    margin-bottom: 6vw;
-    font-family: 'Domaine display web',sans-serif;
-    color: #fff;
-    font-size: 4.86vw;
-    line-height: 140%;
 }
 #offerings .col-6, #offerings .col-12{
     padding: 0;
@@ -635,14 +640,6 @@ p{
 #capabilities{
     padding: 3vw 4vw 10vw;
 }
-#capabilities h2{
-    margin-top: 0;
-    margin-bottom: 6vw;
-    font-family: 'Domaine display web',sans-serif;
-    color: #fff;
-    font-size: 4.86vw;
-    line-height: 140%;
-}
 #capabilities ul{
     display: flex;
     flex-wrap: wrap;
@@ -678,11 +675,7 @@ p{
     padding: 7vw 4vw 0vw;
 }
 #clients h2{
-    margin-top: 0;
-    margin-bottom: 7vw;
-    font-family: 'Domaine display web',sans-serif;
-    font-size: 4.86vw;
-    line-height: 140%;
+    color: #000;
 }
 #clients .col-4, #clients .col-11{
     padding: 0;
